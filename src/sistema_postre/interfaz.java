@@ -20,8 +20,10 @@ class  Cuadro extends JFrame{
 	public Cuadro()
 	{
 		setBounds(400,200,500,350);
-		setVisible(true);
 		
+		Lamina miLamina=new Lamina();
+		add(miLamina);
+		setVisible(true);
 	}
 	
 }
