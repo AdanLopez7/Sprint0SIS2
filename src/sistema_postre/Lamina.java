@@ -3,11 +3,13 @@ package sistema_postre;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class Lamina extends JPanel {
 
 	protected JTextField campo1;
+	
 	public Lamina()
 	{
 		
@@ -15,14 +17,13 @@ public class Lamina extends JPanel {
 			
 			JLabel etiqueta =new JLabel("Introducir postre");
 			add(etiqueta);
-			campo1=new JTextField(20);
-			
+			campo1=new JTextField(20);	
 			add(campo1);
-			
 			JButton miBoton=new JButton("Guardar");
+			add(miBoton);	
+			JButton lista=new JButton("Ver lista postres");
 			
-			add(miBoton);
-			
+			add(lista);		
 		
 	}
 
