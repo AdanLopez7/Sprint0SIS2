@@ -86,11 +86,11 @@ public class login extends JFrame {
 					JOptionPane.showMessageDialog(null,"Bienvenido al Sistema","INGRESASTE", JOptionPane.INFORMATION_MESSAGE);
 				
 					//LINEA DE CODIGO PARA QUE SE HABRA LA OTRA VENTANA DE REGISTRO DE POSTRES
-				registroPostre rp = new registroPostre ();
-				rp.setVisible(true);
+				Lamina l= new Lamina ();
+				l.setVisible(true);
 				}
 				else {
-					JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrecta vuelve a intentarlo", "ERROR", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "Usuario o contraseÃ±a incorrecta vuelve a intentarlo", "ERROR", JOptionPane.ERROR_MESSAGE);
 					
 					txtUsuario.setText("");
 					jpassClave.setText("");
